@@ -1,16 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Configuración optimizada para producción
+  // Configuración estándar de Next.js
   typescript: {
-    ignoreBuildErrors: false, // En producción, no ignorar errores de TypeScript
+    ignoreBuildErrors: false,
   },
   
-  // Habilitar modo estricto de React en producción
+  // Habilitar modo estricto de React
   reactStrictMode: true,
-  
-  // Output standalone para Docker
-  output: 'standalone',
   
   // Optimización de imágenes
   images: {
@@ -116,12 +113,10 @@ const nextConfig: NextConfig = {
   
   // Configuración experimental
   experimental: {
-    // Habilitar optimizaciones experimentales
-    optimizeCss: true,
-    // Optimizar fuentes
-    optimizeFonts: true,
-    // Habilitar server actions si se usan
-    serverActions: true,
+    // Server actions para formularios
+    serverActions: {
+      allowedOrigins: ['localhost:3000']
+    },
   },
   
   // Configuración de entorno

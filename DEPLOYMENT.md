@@ -79,7 +79,7 @@ Variables importantes a configurar:
 
 ```bash
 # Configuración de la API de Z.ai
-Z_AI_API_KEY="tu-api-key-aqui"
+Z_AI_API_KEY="07404a6111c34dc4ad2d693e789aceac.nGwBlpE4Zavv0p4Y"
 Z_AI_API_URL="https://api.z.ai/api/paas/v4/chat/completions"
 
 # Configuración del servidor

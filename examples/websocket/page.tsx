@@ -21,7 +21,7 @@ export default function SocketDemo() {
 
   useEffect(() => {
     const socketInstance = io({
-      path: '/api/socketio',
+      path: '/api/socket',
     });
 
     setSocket(socketInstance);
