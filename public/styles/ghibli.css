@@ -1,0 +1,197 @@
+/* Tema Ghibli - Estudio Ghibli */
+:root {
+  --background: oklch(0.9733 0.0070 88.6423);
+  --foreground: oklch(0.3978 0.0408 143.5079);
+  --card: oklch(1.0000 0 0);
+  --card-foreground: oklch(0.3978 0.0408 143.5079);
+  --popover: oklch(1.0000 0 0);
+  --popover-foreground: oklch(0.3978 0.0408 143.5079);
+  --primary: oklch(0.5084 0.0587 147.0370);
+  --primary-foreground: oklch(1.0000 0 0);
+  --secondary: oklch(0.8645 0.0214 88.7330);
+  --secondary-foreground: oklch(0.3978 0.0408 143.5079);
+  --muted: oklch(0.9283 0.0140 88.6871);
+  --muted-foreground: oklch(0.5246 0.0294 145.1412);
+  --accent: oklch(0.9174 0.0296 87.5487);
+  --accent-foreground: oklch(0.3978 0.0408 143.5079);
+  --destructive: oklch(0.5054 0.1905 27.5181);
+  --destructive-foreground: oklch(1.0000 0 0);
+  --border: oklch(0.8645 0.0214 88.7330);
+  --input: oklch(0.9174 0.0296 87.5487);
+  --ring: oklch(0.5084 0.0587 147.0370);
+  --chart-1: oklch(0.5084 0.0587 147.0370);
+  --chart-2: oklch(0.6224 0.0553 144.0267);
+  --chart-3: oklch(0.6643 0.0497 81.8401);
+  --chart-4: oklch(0.6758 0.0218 149.9454);
+  --chart-5: oklch(0.7971 0.0230 145.3550);
+  --sidebar: oklch(1.0000 0 0);
+  --sidebar-foreground: oklch(0.3978 0.0408 143.5079);
+  --sidebar-primary: oklch(0.5084 0.0587 147.0370);
+  --sidebar-primary-foreground: oklch(1.0000 0 0);
+  --sidebar-accent: oklch(0.9174 0.0296 87.5487);
+  --sidebar-accent-foreground: oklch(0.3978 0.0408 143.5079);
+  --sidebar-border: oklch(0.8645 0.0214 88.7330);
+  --sidebar-ring: oklch(0.5084 0.0587 147.0370);
+  --font-sans: Noto Sans JP;
+  --font-serif: serif;
+  --font-mono: monospace;
+  --radius: 0.75rem;
+  --shadow-2xs: 0px 4px 8px -2px hsl(120 8.3799% 64.9020% / 0.10);
+  --shadow-xs: 0px 4px 8px -2px hsl(120 8.3799% 64.9020% / 0.10);
+  --shadow-sm: 0px 4px 8px -2px hsl(120 8.3799% 64.9020% / 0.20), 0px 1px 2px -3px hsl(120 8.3799% 64.9020% / 0.20);
+  --shadow: 0px 4px 8px -2px hsl(120 8.3799% 64.9020% / 0.20), 0px 1px 2px -3px hsl(120 8.3799% 64.9020% / 0.20);
+  --shadow-md: 0px 4px 8px -2px hsl(120 8.3799% 64.9020% / 0.20), 0px 2px 4px -3px hsl(120 8.3799% 64.9020% / 0.20);
+  --shadow-lg: 0px 4px 8px -2px hsl(120 8.3799% 64.9020% / 0.20), 0px 4px 6px -3px hsl(120 8.3799% 64.9020% / 0.20);
+  --shadow-xl: 0px 4px 8px -2px hsl(120 8.3799% 64.9020% / 0.20), 0px 8px 10px -3px hsl(120 8.3799% 64.9020% / 0.20);
+  --shadow-2xl: 0px 4px 8px -2px hsl(120 8.3799% 64.9020% / 0.50);
+  --tracking-normal: 0rem;
+  --spacing: 0.25rem;
+}
+
+.dark {
+  --background: oklch(0.2352 0.0144 145.1011);
+  --foreground: oklch(0.8388 0.0105 145.4810);
+  --card: oklch(0.2773 0.0206 144.9935);
+  --card-foreground: oklch(0.8943 0.0103 145.4883);
+  --popover: oklch(0.2352 0.0144 145.1011);
+  --popover-foreground: oklch(0.8943 0.0103 145.4883);
+  --primary: oklch(0.6224 0.0553 144.0267);
+  --primary-foreground: oklch(0.1762 0.0103 145.1222);
+  --secondary: oklch(0.4558 0.0294 155.8752);
+  --secondary-foreground: oklch(0.9157 0.0051 145.5334);
+  --muted: oklch(0.3533 0.0322 144.8553);
+  --muted-foreground: oklch(0.7088 0.0110 145.4586);
+  --accent: oklch(0.3978 0.0408 143.5079);
+  --accent-foreground: oklch(0.9187 0.0103 145.4912);
+  --destructive: oklch(0.3958 0.1331 25.7230);
+  --destructive-foreground: oklch(0.8940 0.0324 17.7743);
+  --border: oklch(0.3978 0.0408 143.5079);
+  --input: oklch(0.3978 0.0408 143.5079);
+  --ring: oklch(0.6224 0.0553 144.0267);
+  --chart-1: oklch(0.6224 0.0553 144.0267);
+  --chart-2: oklch(0.6758 0.0218 149.9454);
+  --chart-3: oklch(0.6643 0.0497 81.8401);
+  --chart-4: oklch(0.5084 0.0587 147.0370);
+  --chart-5: oklch(0.7971 0.0230 145.3550);
+  --sidebar: oklch(0.2773 0.0206 144.9935);
+  --sidebar-foreground: oklch(0.8943 0.0103 145.4883);
+  --sidebar-primary: oklch(0.6224 0.0553 144.0267);
+  --sidebar-primary-foreground: oklch(0.1762 0.0103 145.1222);
+  --sidebar-accent: oklch(0.3978 0.0408 143.5079);
+  --sidebar-accent-foreground: oklch(0.9187 0.0103 145.4912);
+  --sidebar-border: oklch(0.3978 0.0408 143.5079);
+  --sidebar-ring: oklch(0.6224 0.0553 144.0267);
+  --font-sans: Noto Sans JP;
+  --font-serif: serif;
+  --font-mono: monospace;
+  --radius: 0.75rem;
+  --shadow-2xs: 0px 2px 4px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0px 2px 4px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm: 0px 2px 4px 0px hsl(0 0% 0% / 0.10), 0px 1px 2px -1px hsl(0 0% 0% / 0.10);
+  --shadow: 0px 2px 4px 0px hsl(0 0% 0% / 0.10), 0px 1px 2px -1px hsl(0 0% 0% / 0.10);
+  --shadow-md: 0px 2px 4px 0px hsl(0 0% 0% / 0.10), 0px 2px 4px -1px hsl(0 0% 0% / 0.10);
+  --shadow-lg: 0px 2px 4px 0px hsl(0 0% 0% / 0.10), 0px 4px 6px -1px hsl(0 0% 0% / 0.10);
+  --shadow-xl: 0px 2px 4px 0px hsl(0 0% 0% / 0.10), 0px 8px 10px -1px hsl(0 0% 0% / 0.10);
+  --shadow-2xl: 0px 2px 4px 0px hsl(0 0% 0% / 0.25);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+  --tracking-tighter: calc(var(--tracking-normal) - 0.05em);
+  --tracking-tight: calc(var(--tracking-normal) - 0.025em);
+  --tracking-normal: var(--tracking-normal);
+  --tracking-wide: calc(var(--tracking-normal) + 0.025em);
+  --tracking-wider: calc(var(--tracking-normal) + 0.05em);
+  --tracking-widest: calc(var(--tracking-normal) + 0.1em);
+}
+
+body {
+  letter-spacing: var(--tracking-normal);
+}
+
+/* Componentes específicos del tema Ghibli */
+.ghibli-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  color: var(--card-foreground);
+}
+
+.ghibli-input {
+  background: var(--input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--foreground);
+  padding: 0.5rem 1rem;
+  font-family: var(--font-sans);
+}
+
+.ghibli-button {
+  background: var(--primary);
+  color: var(--primary-foreground);
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ghibli-button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.ghibli-gradient {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
